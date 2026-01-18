@@ -1,0 +1,33 @@
+name: lab_assignment_4
+description: "A new Flutter project for Lab Assignment 4"
+publish_to: 'none'
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  google_maps_flutter: ^2.5.3
+  geolocator: ^13.0.1
+  http: ^1.2.1
+
+  json_annotation: ^4.8.1
+  flutter_polyline_points: ^3.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  build_runner: ^2.4.8
+  json_serializable: ^6.7.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/map_style_dark.json
+    - assets/campus_data.json
+    - assets/pin_start.png
+    - assets/pin_end.png
